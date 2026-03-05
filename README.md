@@ -1,16 +1,101 @@
-# React + Vite
+# ReactJS Assignment – Set A
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a ReactJS assignment with **four different programs**, each implemented as a separate component. The purpose of this assignment is to demonstrate basic React concepts such as **event handling, state management, controlled components, and form handling**.
 
-Currently, two official plugins are available:
+## Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+src
+ ├── components
+ │    ├── setAa.jsx
+ │    ├── setAb.jsx
+ │    ├── setAc.jsx
+ │    └── setAd.jsx
+ │
+ ├── App.jsx
+ └── main.jsx
+```
 
-## React Compiler
+## Questions Implemented
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### a) Display a Message on Button Click
 
-## Expanding the ESLint configuration
+Component: **setAa.jsx**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This component demonstrates **event handling in React**.
+When the user clicks the button, a message is displayed on the screen using React state.
+
+---
+
+### b) Change Background Color on Button Click
+
+Component: **setAb.jsx**
+
+This component changes the **background color of the page** when the button is clicked.
+It demonstrates how to update UI dynamically using React **state and events**.
+
+---
+
+### c) Controlled Form with Name and Email
+
+Component: **setAc.jsx**
+
+This program creates a **controlled form** with two input fields:
+
+* Name
+* Email
+
+The form values are managed using **React state**, ensuring that the input fields are controlled by the React component.
+
+---
+
+### d) Simple Login Form
+
+Component: **setAd.jsx**
+
+This component implements a **basic login form** containing:
+
+* Username/Email field
+* Password field
+* Login button
+
+It demonstrates **form handling and state management in React**.
+
+---
+
+## How to Run Each Program
+
+All components are imported in **App.jsx**, but only one component is rendered at a time.
+
+Example:
+
+```jsx
+// <SetAa />
+// <SetAb />
+// <SetAc />
+<SetAd />
+```
+
+To run a specific program:
+
+1. Open **App.jsx**
+2. Uncomment the component you want to run
+3. Comment the others
+4. Save the file and run the application
+
+---
+
+## Technologies Used
+
+* ReactJS
+* JavaScript (ES6)
+* HTML
+* CSS
+
+---
+
+## Author
+
+**Rupali Prajapati**
+MSc Computer Science Student
+Aspiring Web Developer
